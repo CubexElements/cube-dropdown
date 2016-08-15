@@ -1,19 +1,19 @@
 {
-  "name": "seed-element",
+  "name": "fort-dropdown",
   "version": "1.0.0",
   "authors": [
     "Anonymous <anonymous@example.com>"
   ],
-  "description": "An element providing a solution to no problem in particular.",
+  "description": "An element providing a solution to dropdowns.",
   "keywords": [
     "web-component",
     "polymer",
     "seed"
   ],
   "private": true,
-  "main": "seed-element.html",
+  "main": "fort-dropdown.html",
   "license": "MIT",
-  "homepage": "https://github.com/FortifiElements/seed-element/",
+  "homepage": "https://github.com/FortifiElements/fort-dropdown/",
   "ignore": [
     "/.*",
     "/test/",
@@ -21,7 +21,9 @@
     "/node_modules/"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.6.0"
+    "polymer": "Polymer/polymer#^1.6.0",
+    "iron-elements": "PolymerElements/iron-elements#1.0.10",
+    "paper-elements": "PolymerElements/paper-elements#1.0.7"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
