@@ -2,7 +2,8 @@
 <link rel="import" href="../neon-animation/neon-animations.html">
 <link rel="import" href="fort-dropdown-expand-animation.html">
 
-<dom-module id="fort-dropdown">
+<dom-module id="fort-dropdown"
+            attributes="vertical-align horizontal-align disabled open-animation-config close-animation-config">
   <template>
     <div style="line-height: normal" on-tap="open">
       <content select=".dropdown-trigger"></content>
