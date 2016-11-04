@@ -21,12 +21,30 @@
     "/node_modules/"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.6.0",
-    "iron-elements": "PolymerElements/iron-elements#1.0.10",
-    "paper-elements": "PolymerElements/paper-elements#1.0.7"
+    "polymer": "Polymer/polymer#2.0-preview",
+    "iron-dropdown": "PolymerElements/iron-dropdown#2.0-preview",
+    "neon-animation": "PolymerElements/neon-animation#2.0-preview",
+    "paper-styles": "PolymerElements/paper-styles#2.0-preview"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
-    "web-component-tester": "^4.0.0"
+    "web-component-tester": "^4.0.0",
+    "paper-item": "PolymerElements/paper-item#2.0-preview"
+  },
+  "resolutions": {
+    "iron-flex-layout": "2.0-preview",
+    "paper-styles": "2.0-preview",
+    "iron-dropdown": "2.0-preview",
+    "neon-animation": "2.0-preview",
+    "iron-selector": "2.0-preview",
+    "iron-a11y-keys-behavior": "2.0-preview",
+    "iron-resizable-behavior": "2.0-preview",
+    "iron-behaviors": "2.0-preview",
+    "iron-fit-behavior": "2.0-preview",
+    "iron-meta": "2.0-preview",
+    "iron-overlay-behavior": "2.0-preview",
+    "polymer": "2.0-preview",
+    "webcomponentsjs": "v1",
+    "paper-item": "2.0-preview"
   }
 }
