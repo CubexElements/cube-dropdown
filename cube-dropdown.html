@@ -4,16 +4,15 @@
 <link rel="import" href="../neon-animation/animations/fade-out-animation.html">
 <link rel="import" href="../neon-animation/animations/slide-down-animation.html">
 <link rel="import" href="../paper-styles/shadow.html">
-<link rel="import" href="fort-dropdown-expand-animation.html">
+<link rel="import" href="cube-dropdown-expand-animation.html">
 
-
-<dom-module id="fort-dropdown"
+<dom-module id="cube-dropdown"
             attributes="vertical-align horizontal-align disabled open-animation-config close-animation-config">
   <template>
     <style>
       :host iron-dropdown {
         @apply --shadow-elevation-2dp;
-        @apply --fort-dropdown-style;
+        @apply --cube-dropdown-style;
       }
     </style>
     <div style="line-height: normal" on-tap="open">
@@ -32,7 +31,7 @@
   <script>
     Polymer(
       {
-        is: 'fort-dropdown',
+        is: 'cube-dropdown',
 
         properties: {
           verticalAlign:       {
@@ -56,7 +55,7 @@
                            duration: 50
                          }
                        }, {
-                         name:   'fort-dropdown-expand-animation',
+                         name:   'cube-dropdown-expand-animation',
                          timing: {
                            delay:    150,
                            duration: 200

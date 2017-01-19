@@ -1,4 +1,4 @@
-_[Demo and API docs](https://elements.fortifi.it/elements/seed-element)_
+_[Demo and API docs](https://elements.cubex.io/elements/seed-element)_
 
 ##&lt;seed-element&gt;
 
